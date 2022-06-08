@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container{
+    width: 90%;
+    margin: auto ;
+}
+/* header part */
+header{
+    width: 100%;
+    float: left;
+    background-color: #ec2567;
+    color: white;
+    padding: 50px 0px;
+    text-align: center;
+
+}
+nav{
+    width: 100%;
+    float: left;
+
+}
+.logo-part{
+    width: 40%;
+    float: left;
+    text-align: left ;
+     
+}
+.logo-part img{
+
+}
+.menu-part{
+    width: 60%;
+    float: left;
+
+}
+.menu-part ul{
+    margin: 12px 0px  ;
+
+}
+.menu-part li{
+      list-style: none;
+      display: inline-block;
+      margin: 0px 15px;
+      
+
+}
+.menu-part a{
+    font-size: 20px;
+    color: rgb(7, 250, 197);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 5px;
+     
+}
+.menu-part a:hover{
+    background-color: #510af7;
+    
+}
+.hero{
+    width: 100%;
+    float: left;
+    padding: 110px 0px;
+    
+}
+.hero h1{
+    width: 85%;
+    font-size: 35px;
+    margin: auto;
+
+}
+.hero button{
+    width: 220px;
+    padding: 12px;
+    font-size: 20px;
+    margin: 35px;
+    text-transform: uppercase;
+    background-color: #eb7d4b;
+    color: white;
+    border: 5px solid #eb7d4b;
+
+}
+.hero button:hover{
+    background-color: saddlebrown;
+    color: black;
+    font-weight: 600;
+
+}
